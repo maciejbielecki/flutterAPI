@@ -12,6 +12,5 @@ namespace api.Models
         public int DeviceId { get; set; }
         public string Data { get; set; }
         public DateTime CreatedAt { get; set; }
-        public virtual Device Device { get; set; }
     }
 }

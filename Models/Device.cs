@@ -15,8 +15,6 @@ namespace api.Models
         [ForeignKey("Room")]
         public int RoomId { get; set; }
         public DateTime CreatedAt { get; set; }
-
-        public virtual Room Room { get; set; }
         public virtual List<Log> Logs { get; set; }
     }
 }
